@@ -1,0 +1,66 @@
+
+
+.main-nav{
+    display: flex;
+    margin: 0;
+    padding: 15px;
+    background-color: gray;
+    overflow: hidden;
+}
+
+.main-nav li{
+    display: inline;
+    list-style-type: none;
+    font-size: 1.2em;
+}
+
+.main-nav a{
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    padding: 15px;
+}
+
+@media screen and (max-width: 600px) {
+    .main-nav {
+        widows: 100%;
+    }
+}
+
+.main-nav a:hover{
+    background-color: #111;
+}
+
+.container img{
+    display: flex;
+    align-items: center;
+    justify-items: center;
+    height: 90vh;
+    width: 100%;
+}
+
+
+
+.box img{
+    height: 500px;
+    width: 500px;
+}
+
+.box>img{
+    width: 100%;
+}
+
+
+.grid-wrapper{
+    display: grid;
+    grid-gap: 20px;
+    grid-template-columns: repeat(auto-fill, minmax(350px, 1fr));
+}
+
+
+.yellow{
+    background-color: yellow;
+    font-size: 3rem;
+    color: crimson;
+    text-align: center;
+}
